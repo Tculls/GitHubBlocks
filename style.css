@@ -4,36 +4,31 @@
     flex-direction: column;
     align-items: center;
 }
-
-.top{
-    display:flex;
-    justify-content: space-between;
-    background-color: aquamarine;
-    width: 900px;
-    padding: 20px;
-    margin: 20px;
-
+.githubblocks{
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.middle{
-    display:flex;
-    justify-content: center;
-    background-color: cornsilk;
-    width: 900px;
-    padding: 20px;
-    margin: 20px;
-}
-.bottom{
-    display:flex;
-    justify-content: flex-start;
-    background-color: coral;
-    width: 900px;
-    padding: 20px;
-    margin: 20px;
-}
-img{
+.githubblocks img{
     height: 200px;
     width: 200px;
     padding: 20px;
+}
+.top{
+    justify-content: space-between;
+    background-color: aquamarine;
+    
+}
+.middle{
+    justify-content: center;
+    background-color: cornsilk;
+    
+}
+.bottom{
+    justify-content: flex-start;
+    background-color: coral;
+    
 }
 .footer{
     font-size: 14px;
@@ -41,9 +36,9 @@ img{
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-.githubblocks{
-    font-size: 30px;
-    font-style: normal;
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+.row{
+    display:flex;
+    width: 900px;
+    padding: 20px;
+    margin: 20px;
 }
